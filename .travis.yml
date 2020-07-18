@@ -1,6 +1,9 @@
 sudo: required
 dist: xenial
 language: java
+arch:
+  - arm64
+  - amd64
 jdk:
   - openjdk8
   - openjdk11
